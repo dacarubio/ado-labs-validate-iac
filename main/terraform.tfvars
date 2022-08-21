@@ -1,6 +1,8 @@
 # Start with these values
-asp_tier = "Basic"
-asp_size = "F1"
+# asp_tier = "Basic"
+asp_tier = "Standard"
+# asp_size = "F1"
+asp_size = "S1"
 
 #Change to these values
 #asp_tier = "PremiumV2"
