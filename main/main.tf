@@ -20,7 +20,7 @@ resource "random_integer" "name_suffix" {
 
 resource "azurerm_resource_group" "app_service" {
   name     = local.resource_group_name
-  location = var.location
+  # location = var.location
 }
 
 resource "azurerm_app_service_plan" "app_service" {
